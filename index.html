@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>The Spam Legend List</title>
+	<link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
+	<link href="css/stylesheet-christmas.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" href="https://media.discordapp.net/attachments/1163231841109672049/1166856099350188092/IMG_8902.jpg?ex=654c026d&is=65398d6d&hm=8cb91e7d7aea4e5f8bddcb41b181ca3fdba6e925025819ac959915e4ca1f2e5c&"
+	 type="image/x-icon">
+  <meta id="meta-title" property="og:title" content="nuclei">
+	<meta id="meta-desc" property="og:description" content="My website.">
+	<meta id="meta-image" name="og:image" itemprop="image" content="https://media.discordapp.net/attachments/1163231841109672049/1166856099350188092/IMG_8902.jpg?ex=654c026d&is=65398d6d&hm=8cb91e7d7aea4e5f8bddcb41b181ca3fdba6e925025819ac959915e4ca1f2e5c&">
+	<meta name="viewport" content="user-scalable=no">
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<script type='text/javascript' src="js/jquery-3.2.1.min.js">
+	</script>
+	<script type='text/javascript' src="js/sweetalert.min.js">
+	</script>
+	<script type='text/javascript' src="js/list.js">
+	</script>
+	<script type='text/javascript' src="js/userData.js">
+	</script>
+	<cover-all id="hi">
+		<header id="dl-header">
+			<div id="sitename"><!--here lies our old img tag o7.<img src="/images/GD Shitty List.png" alt="" width="390" height="60">--><strong>nuclei</strong><small><em id="version-node"></em></small></div>
+            <div id="pc-link"><a href="https://discord.gg/V53JZaDStw"><em><strong>The Discord Server</strong></a></em></div>
+    </header>
+        <div id="additional-information">
+            <div id="inner-right-info">
+                <div><strong>Do you have a record to submit? Was your record typed incorrectly or does it need updating? <u><a target="_blank" href="https://discord.gg/V53JZaDStw">Submit your record!</a></u></strong></div>
+                <br>
+                <div>
+                  <strong>List Owner:</strong>
+			<div class='sk-ww-youtube-channel-videos' data-embed-id='218365'></div><script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
+			      <strong>dumbass:</strong>
+			<div class='sk-ww-youtube-channel-videos' data-embed-id='218991'></div><script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
+                </div>
+                <div>
+                    
+																				<br>
+                    You can submit a record if you meet the following requirements:
+                    <ul>
+                        <li>Achieved the record without the use of hacks.</li>
+																								<p> There is one exception though, if you pass a certain number of spams you can submit that as a completion. (Ex. You got past 3rd spam on OSL, you can submit that as a TSL completion as long as you played the OSL on the list.)
+                        <li>Achieved the record on the level that is listed on the site - please check the level ID before you submit a record.</li>
+                        <li>Have clicks/taps in the video. If no taps are audible we cannot accept your record.</li>
+                        <li>You must have raw footage.</li>
+                        <li>If you submit a challenge, the spam MUST be the Spam Legend click pattern. This means it must be a frame perfect spam, must be 15 cps, and must be a 3 frames up 1 frame down pattern.</li>
+                        <li>You must play on 60FPS. Any higher or lower values will not be accepted.</li>
+                    </ul><br>
+                    <br>
+                    <p>
+                    Changelog:
+                    <br>
+                    <ul>
+                      Welcome! This is the first version of the site and no changes have been made.
+                    </p>
+                </div>
+            </div>
+            <div id="user-rank-info">
+                <style type='text/css'>
+                /* 아직 방문하지 않은경우 */
+                A:visited {
+                    color: white !important;
+                    text-decoration: none;
+                }
+                /* 한번 이상 방문한 링크 처리 */
+                A:active {
+                    color: white !important;
+                    text-decoration: none;
+                }
+                /* 마우스로 클릭하는 순간 */
+                A:hover {
+                    color: rgba(255, 255, 255, 0.5) !important;
+                    text-decoration: none;
+                }
+                /* 마우스 링크 위 올려 놓았을때 */
+                </style>
+                <center><strong>The Leaderboard</strong></center>
+																<hr>
+                <div id="user-rank"></div>
+            </div>
+        </div>
+    </cover-all>
+    <script>
+    // height changing script
+    var hChange = function() {
+        var height = $(window).height();
+        let remainingHeight = (height - 100) + "px";
+        $("#list").css('height', remainingHeight)
+        $("#additional-information").css('height', remainingHeight)
+        $("#user-rank").css('height', remainingHeight)
+        $("#info").css('height', remainingHeight)
+    };
+    hChange();
+    $(window).resize(hChange)
+    // random color
+    var c = 0; //Math.floor(Math.random()*256);
+    function cueCSS() {}
+    cueCSS();
+    $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 0%);')
+    </script>
+    <noscript>
+        <div id="block">
+            You are not using JavaScript
+        </div>
+    </noscript>
+</body>
+
+</html>
